@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/app/src/main/res/drawable/accueil_background.xml" value="0.1" />
+        <entry key="..\:/Android/app/src/main/res/drawable/ic_accueil.xml" value="0.1" />
+        <entry key="..\:/Android/app/src/main/res/drawable/ic_maps.xml" value="0.146" />
+        <entry key="..\:/Android/app/src/main/res/drawable/ic_profil.xml" value="0.1" />
+        <entry key="..\:/Android/app/src/main/res/drawable/maps_background.xml" value="0.1" />
+        <entry key="..\:/Android/app/src/main/res/drawable/roundedbutton.xml" value="0.1" />
+        <entry key="..\:/Android/app/src/main/res/layout/activity_favoris.xml" value="0.1" />
+        <entry key="..\:/Android/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Android/app/src/main/res/layout/activity_map.xml" value="0.11979166666666667" />
+        <entry key="..\:/Android/app/src/main/res/layout/activity_signup.xml" value="0.11979166666666667" />
+        <entry key="..\:/Android/app/src/main/res/layout/adapter_item.xml" value="0.14175724637681159" />
+        <entry key="..\:/Android/app/src/main/res/layout/fragement_navigation.xml" value="0.2" />
+        <entry key="..\:/Android/app/src/main/res/layout/fragment_acceuil.xml" value="0.11979166666666667" />
+        <entry key="..\:/Android/app/src/main/res/layout/fragment_accueil.xml" value="0.1105072463768116" />
+        <entry key="..\:/Android/app/src/main/res/layout/fragment_gps.xml" value="0.176" />
+        <entry key="..\:/Android/app/src/main/res/layout/fragment_maps.xml" value="0.1105072463768116" />
+        <entry key="..\:/Android/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1359375" />
+        <entry key="..\:/Android/app/src/main/res/mipmap-anydpi-v26/accueil.xml" value="0.1" />
+        <entry key="..\:/Android/app/src/main/res/mipmap-anydpi-v26/accueil_round.xml" value="0.1" />
+        <entry key="..\:/Android/app/src/main/res/mipmap-anydpi-v26/maps.xml" value="0.1" />
+        <entry key="..\:/Users/BUNICE/Documents/GitHub/TipTop/app/src/main/res/layout/activity_addbp.xml" value="0.1640625" />
+        <entry key="..\:/Users/BUNICE/Documents/GitHub/TipTop/app/src/main/res/layout/activity_favoris.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/BUNICE/Documents/GitHub/TipTop/app/src/main/res/layout/activity_signup.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/emile/AndroidStudioProjects/TopTip/app/src/main/res/layout/activity_main.xml" value="0.264" />
+<<<<<<< HEAD
+        <entry key="..\:/Users/emile/Documents/TipTop/app/src/main/res/layout/activity_login.xml" value="0.4" />
+        <entry key="..\:/Users/emile/Documents/TipTop/app/src/main/res/layout/activity_signup.xml" value="0.4392220421393841" />
+=======
+        <entry key="..\:/Users/morga/Documents/L3/S6/IHM/TipTop/app/src/main/res/drawable/ic_profil.xml" value="0.1" />
+>>>>>>> 5e040cb41fb673b0f9450262044d117696ae8ebd
+        <entry key="..\:/Users/morga/Documents/L3/S6/IHM/TipTop/app/src/main/res/layout/activity_addbp.xml" value="0.1" />
+        <entry key="..\:/Users/morga/Documents/L3/S6/IHM/TipTop/app/src/main/res/layout/activity_camera.xml" value="0.1796875" />
+        <entry key="..\:/Users/morga/Documents/L3/S6/IHM/TipTop/app/src/main/res/layout/activity_favoris.xml" value="0.1" />
+        <entry key="..\:/Users/morga/Documents/L3/S6/IHM/TipTop/app/src/main/res/layout/activity_login.xml" value="0.1796875" />
+        <entry key="..\:/Users/morga/Documents/L3/S6/IHM/TipTop/app/src/main/res/layout/activity_signup.xml" value="0.1" />
+        <entry key="..\:/Users/morga/Documents/L3/S6/IHM/TipTop/app/src/main/res/layout/adapter_item.xml" value="0.1" />
+        <entry key="..\:/Users/morga/Documents/L3/S6/IHM/TipTop/app/src/main/res/layout/fragment_accueil.xml" value="0.1" />
+        <entry key="..\:/Users/morga/Documents/L3/S6/IHM/TipTop/app/src/main/res/layout/fragment_camera.xml" value="0.1796875" />
+        <entry key="..\:/Users/morga/Documents/L3/S6/IHM/TipTop/app/src/main/res/layout/fragment_historique.xml" value="0.1" />
+        <entry key="..\:/Users/morga/Documents/L3/S6/IHM/TipTop/app/src/main/res/layout/fragment_listefavoris.xml" value="0.1" />
+        <entry key="..\:/Users/morga/Documents/L3/S6/IHM/TipTop/app/src/main/res/layout/fragment_maps.xml" value="0.1796875" />
+        <entry key="..\:/Users/morga/Documents/L3/S6/IHM/TipTop/app/src/main/res/layout/fragment_place_details.xml" value="0.1" />
+        <entry key="..\:/Users/morga/Documents/L3/S6/IHM/TipTop/app/src/main/res/layout/fragment_profil.xml" value="0.1" />
+        <entry key="..\:/Users/morga/Documents/L3/S6/IHM/TipTop/app/src/main/res/layout/fragment_reglages.xml" value="0.1" />
+        <entry key="..\:/Users/morga/Documents/L3/S6/IHM/TipTop/app/src/main/res/layout/fragment_storage.xml" value="0.1" />
+        <entry key="..\:/Users/morga/Documents/L3/S6/IHM/TipTop/app/src/main/res/layout/fragment_wallet.xml" value="0.1" />
+        <entry key="..\:/Users/nadim/Documents/GitHub/TipTop/app/src/main/res/layout/activity_map.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

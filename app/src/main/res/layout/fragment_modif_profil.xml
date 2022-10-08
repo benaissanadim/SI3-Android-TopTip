@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/idInfoCompte"
+    android:layout_width="match_parent"
+    android:background="#e4e9ef"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/idInfoHeader"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#0e81d1"
+        android:gravity="center_horizontal"
+        android:paddingTop="50dp"
+        android:text="Modifer Profil"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <ImageButton
+        android:id="@+id/retour"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:bottomLeftRadius="100dp"
+        android:src="@drawable/ic_return"></ImageButton>
+
+    <TextView
+        android:id="@+id/idErreurModifUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idInfoHeader"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/redAuth"
+        android:textSize="15dp" />
+
+
+    <EditText
+        android:id="@+id/newUserName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idErreurModifUser"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:hint="Nouveau nom d'utilisateur"
+        android:minHeight="48dp"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/idBtnModifUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_below="@id/newUserName"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:hint="Modifier le profil"
+        android:backgroundTint="@color/green"/>
+
+</RelativeLayout>

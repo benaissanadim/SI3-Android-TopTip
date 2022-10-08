@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.CameraFragment">
+
+    <Button
+        android:id="@+id/BCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:backgroundTint="@color/green"
+        android:text="PRENDRE UNE PHOTO"
+        android:drawableLeft="@android:drawable/ic_menu_camera"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+
+    <ImageView
+        android:layout_marginTop="70dp"
+        android:layout_width="350dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="450dp"
+        android:id="@+id/click_image"
+        android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>

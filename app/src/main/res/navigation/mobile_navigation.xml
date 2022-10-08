@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_accueil">
+
+    <fragment
+        android:id="@+id/maps"
+        android:name="etu.toptip.fragments.MapsFragment"
+        android:label="@string/title_maps"
+        tools:layout="@layout/fragment_maps" />
+
+    <fragment
+        android:id="@+id/accueil"
+        android:name="etu.toptip.fragments.AccueilFragment"
+        android:label="@string/title_accueil"
+        tools:layout="@layout/fragment_accueil" />
+
+    <fragment
+        android:id="@+id/profil"
+        android:name="etu.toptip.fragments.ProfilFragment"
+        android:label="@string/title_profil"
+        tools:layout="@layout/fragment_profil" >
+    </fragment>
+
+</navigation>

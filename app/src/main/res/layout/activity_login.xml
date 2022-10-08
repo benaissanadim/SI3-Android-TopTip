@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#e4e9ef"
+    android:id="@+id/Login"
+    tools:context=".activities.LoginActivity">
+
+
+    <ImageView
+        android:id="@id/Bienvenue"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:src="@raw/logo"></ImageView>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Bienvenue"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:text="Trouvez les meilleurs Bons Plans chez         Top Tip "
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textSize="20dp" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginTop="150dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/app2" />
+
+    <TextView
+        android:id="@+id/idErreur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/redAuth"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:id="@+id/emailT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/idErreur"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Email :"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:hint="Email"
+            android:minHeight="48dp"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mdpT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailT"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/emailInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Mot de passe :"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+    <EditText
+        android:id="@+id/mdp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:hint="Mot de passe"
+        android:minHeight="48dp"
+        android:inputType="textPassword"
+        android:textSize="15dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/idBtnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@id/mdpT"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:hint="Se connecter"
+        android:backgroundTint="@color/green"/>
+    <Button
+        android:id="@+id/idBtnGoRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@+id/idBtnLogin"
+        android:layout_centerHorizontal="true"
+        android:textSize="13dp"
+        android:hint="Vous n'avez pas encore un compte ? inscrivez vous"
+        android:backgroundTint="@color/white"/>
+
+</RelativeLayout>

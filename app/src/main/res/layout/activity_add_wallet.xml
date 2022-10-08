@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e4e9ef"
+    tools:context=".activities.AddWalletActivity">
+
+
+    <TextView
+        android:id="@+id/idAddHeader"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#0e81d1"
+        android:gravity="center_horizontal"
+        android:paddingTop="50dp"
+        android:text="Ajoutez une carte"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <ImageButton
+        android:id="@+id/retour"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:bottomLeftRadius="100dp"
+        android:src="@drawable/ic_return"></ImageButton>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/idTVHeaderErreur3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idAddHeader"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/redAuth"
+            android:textSize="15sp" />
+
+        <Spinner
+            android:id="@+id/nameW"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="10dp" />
+
+
+        <Button
+            android:id="@+id/BSelectImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ajout"
+            android:layout_marginTop="33dp"
+            android:backgroundTint="@color/green"
+            android:text="SELECTIONNER UNE IMAGE"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <FrameLayout
+            android:id="@+id/fragmentCameraWallet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BSelectImage"></FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fragmentStorageWallet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fragmentCamera"></FrameLayout>
+
+        <Button
+            android:id="@+id/ajout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nameW"
+            android:layout_marginTop="9dp"
+            android:backgroundTint="@color/green"
+            android:text="AJOUTER LA CARTE"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/IVPreviewImage"
+            android:layout_width="395dp"
+            android:layout_height="183dp"
+            android:layout_below="@id/BSelectImage"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="133dp"
+            android:layout_marginEnd="16dp" />
+
+        <FrameLayout
+            android:id="@+id/fragmentCamera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BSelectImage"></FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fragmentStorage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fragmentCamera"></FrameLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
